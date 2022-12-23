@@ -1,0 +1,370 @@
+/* css Text-Color start */
+.header, .header .nav-link,.section-2, .section-3 h2, .section-3 h5, .section-4{
+    color: #3d2514;
+}
+.section-1, .footer{
+    color: white;
+}
+/* css Text-Color end */
+
+/* css Font-Family start */
+.p1, .p4{
+    font-family: 'Montserrat', sans-serif;
+}
+.header .nav-link, .section-1 p, .heading2, .p3, .p2, .section-4 input[type=text]{
+    font-family: 'Bebas Neue', cursive;
+}
+.heading1, .section-2 button, .section-4 input[type=button]{
+    font-family: 'Alfa Slab One', cursive;
+}
+/* css Font-Family end */
+
+/* css Header start */
+.header{
+    background-image: url(../Images/Header_Img/Header_Background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    overflow: auto;
+}
+.header .p1{
+    font-weight: bold;
+    font-size: small;
+}
+.navbar-light .navbar-toggler {
+    color: #3d2514;
+    border-color: #3d2514;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: #3d2514;
+    font-size: larger;
+    letter-spacing: 2px;
+    margin-left: 35px;
+}
+.navbar-toggler:focus {
+    text-decoration: none;
+    outline: 0;
+    box-shadow: 0 0 0 0.1rem;
+}
+.header .p2{
+    border: 1px dashed #3d2514;
+    width: 68%;
+    font-size: large;
+    text-align: center;
+}
+.header h1{
+    font-size: 5.5rem;
+    text-shadow: 3px 3px 2px #EEE4E9;
+}
+.header h5{
+    font-size: 3.25rem;
+    font-weight:200;
+    text-shadow: 3px 3px 2px #EEE4E9;
+}
+/* css Header end */
+
+/* css Section first start */
+.section-1 .img1{
+    background-image: url(../Images/Section-1_Img/Burger_Back_1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    background-position: center center;
+    border-radius: 7px;
+    height: 438px;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+.section-1 .img2{
+    background-image: url(../Images/Section-1_Img/Burger_Back_2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    background-position: center center;
+    border-radius: 7px;
+    height: 200px;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 4.5rem;
+    margin-bottom: 2.4rem;
+}
+.section-1 .img3{
+    background-image: url(../Images/Section-1_Img/Burger_Back_3.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    border-radius: 7px;
+    height: 200px;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 7rem;
+}
+/* css Section first end */
+
+/* css Section second start */
+.section-2 .p3{
+    background-color: #ffc045;
+    text-align: center; 
+    width: 15vw;
+    font-size: large;
+}
+.section-2 .p4{
+    font-size: small;
+}
+.section-2 button{
+    font-size: small;
+    border-radius: 0px;
+    padding: 10px 25px;
+    background-color: #bf2222;
+    color: white;
+}
+/* css Section second end */
+
+/* css Section third start */
+.section-3 .row{
+    width: 95%;
+    box-shadow: 13px 13px 12px 12px rgba(194,188,188,0.25);
+    -webkit-box-shadow: 13px 13px 12px 12px rgba(194,188,188,0.25);
+    -moz-box-shadow: 13px 13px 12px 12px rgba(194,188,188,0.25);
+}
+.section-3 p{
+    color: #918d8d;
+}
+.section-3 h5{
+    font-size: x-large;
+    letter-spacing: 1px;
+}
+.section-3 button{
+    margin-right: 5px;
+}
+/* css Section third end */
+
+/* css Section fourth start */
+.section-4 .bottle{
+    margin-right: 5rem;
+}
+.section-4 h1, .section-4 h5{
+    letter-spacing: 2px;
+}
+.section-4 input[type=text]{
+    width: 270px;
+    padding: 10px;
+    margin-left: 25px;
+    margin-bottom: 25px; 
+}
+.section-4 input[type=button]{
+    width: 270px;
+    padding: 10px;
+    margin-left: 25px;
+    margin-bottom: 25px;
+    letter-spacing: 1.5px;
+    background-color: #bf2222;
+    color: white;
+    border-radius: 5px;
+}
+.section-4 .Plate_burger{
+    padding-top: 8rem;
+}
+/* css Section fourth end */
+
+/* css Footer start */
+.footer{
+    background-image: url(../Images/Footer_Img/Footer_Background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    overflow: auto;
+    width: 90vw;
+}
+.footer .p4, .footer .p2{
+    font-size: small;
+}
+.footer .p3{
+    font-size: large;
+}
+.footer .i{
+    font-size: x-large;
+}
+.footer .icon{
+    background-color: white;
+    border-radius: 50%;
+    border: 1px solid grey;
+    padding: 5px;
+    margin: 5px;
+    color: black;
+}
+/* css Footer end */
+
+/* --------------------------Start Responsive css------------------------------- */
+/* --------Media Queries For--------- */
+/* Large devices (laptops/desktops, 1199px and down) */
+@media only screen and (max-width:1199px){
+    /* -------section-4------- */
+    .section-4 input[type=text]{
+        width: 350px;
+        margin: 0px auto 25px auto;
+     }
+     .section-4 input[type=button]{
+         width: 350px;
+         margin: 0px auto 25px auto;
+     }
+}
+
+/* Medium devices (landscape tablets, 991px and down) */
+@media only screen and (max-width:991px){
+    /* -------header------- */
+    .header .p2 {
+        font-size: medium;
+        width: 80%;
+    }
+    .header h1 {
+        font-size: 3.5rem;
+    }
+    .header h5 {
+        font-size: 2.25rem;
+    }
+
+    /* -------section-1------- */
+    .section-1 .img1{
+       margin-bottom: 2.4rem;
+       width: 70vw;
+       margin-left: auto;
+       margin-right: auto;
+    }
+    .section-1 .img2{
+        width: 70vw;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .section-1 .img3{
+        width: 70vw; 
+        margin-left: auto;
+        margin-right: auto;  
+    }
+
+    /* -------section-2------- */
+    .section-2 .p3{
+        width: 17vw;
+    }
+
+    /* -------section-4------- */
+    .section-4 input[type=text]{
+        margin: 0px auto 25px auto;
+     }
+     .section-4 input[type=button]{
+         margin: 0px auto 25px auto;
+     }
+}
+
+/* Small devices (portrait tablets and large phones, 767px and down) */
+@media only screen and (max-width:767px){
+    /* -------header------- */
+    .header .p2 {
+        font-size: large;
+        width: 60%;
+    }
+    .header h1 {
+        font-size: 5.5rem;
+    }
+    .header h5 {
+        font-size: 3.25rem;
+    }
+
+    /* -------section-2------- */
+    .section-2 .p3{
+        width: 23vw;
+    }
+
+    /* -------section-4------- */
+    .section-4 input[type=text]{
+       margin: 0px auto 25px auto;
+    }
+    .section-4 input[type=button]{
+        margin: 0px auto 25px auto;
+    }
+}
+
+/* Extra small devices (phones, 576px and down) */
+@media only screen and (max-width:575px){
+    /* -------header------- */
+    .header .logo-div{
+        text-align: center;
+    }
+    .header #phone{
+        padding-right: 2rem;
+    }
+    .header .p2 {
+        font-size: large;
+        width: 85%;
+    }
+    .header h1 {
+        font-size: 3rem;
+    }
+    .header h5 {
+        font-size: 2rem;
+    }
+
+    /* -------section-1------- */
+    .section-1 .img1{
+        width: 95vw;
+    }
+    .section-1 .img2{
+        width: 100vw;
+    }
+    .section-1 .img3{
+        width: 100vw;    
+    }
+
+    /* -------section-2------- */
+    .section-2 .p3{
+        width: 40vw;
+    }
+    .section-2 .items{
+        padding-bottom: 1.5rem;
+    }
+    .section-2{
+        text-align: center;
+    }
+
+    /* -------section-3------- */
+    .section-3 img{
+        text-align: center;
+    }
+    .section-3 button{
+        margin-bottom: 20px;
+    }
+
+    /* -------section-4------- */
+    .section-4 input[type=text]{
+        margin: 0px auto 25px auto;
+        width: 70vw;
+     }
+     .section-4 input[type=button]{
+         margin: 0px auto 25px auto;
+         width: 70vw;
+     }
+
+    /* -------footer------- */
+     .footer{
+        width: 100vw;
+    }
+    .footer .center-div{
+        text-align: center;
+        margin-top: 10px;
+    }
+    .footer img{
+        width: 70vw;
+    }
+    .footer .last-div{
+        text-align: center;
+    }
+    
+}
+/* --------------------------End Responsive css------------------------------- */
